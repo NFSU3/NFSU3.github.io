@@ -1,0 +1,408 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Ramlal – Cybersecurity Student Portfolio. Ethical hacking, penetration testing, CTF player, and security researcher." />
+  <title>Ramlal | Cybersecurity Portfolio</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Share+Tech+Mono&family=Rajdhani:wght@400;600;700&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+  <!-- ===== NAV ===== -->
+  <nav class="navbar" id="navbar">
+    <div class="nav-brand">
+      <span class="prompt">~</span><span class="brand-text">ramlal</span><span class="cursor-blink">_</span>
+    </div>
+    <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation">&#9776;</button>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="#about">About</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#certifications">Certs</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- ===== HERO ===== -->
+  <section class="hero" id="hero">
+    <div class="hero-bg-grid"></div>
+    <div class="scanline"></div>
+    <div class="hero-content">
+      <p class="hero-label">// cybersecurity student</p>
+      <h1 class="hero-title">Ramlal</h1>
+      <p class="hero-subtitle">
+        <span id="typed-text"></span><span class="cursor-blink">|</span>
+      </p>
+      <div class="hero-buttons">
+        <a href="#projects" class="btn btn-primary">View Projects</a>
+        <a href="#contact" class="btn btn-outline">Contact Me</a>
+      </div>
+      <div class="hero-stats">
+        <div class="stat">
+          <span class="stat-num">10+</span>
+          <span class="stat-label">CTF Challenges</span>
+        </div>
+        <div class="stat">
+          <span class="stat-num">5+</span>
+          <span class="stat-label">Security Projects</span>
+        </div>
+        <div class="stat">
+          <span class="stat-num">3+</span>
+          <span class="stat-label">Certifications</span>
+        </div>
+      </div>
+    </div>
+    <div class="scroll-indicator">
+      <span>scroll</span>
+      <div class="scroll-line"></div>
+    </div>
+  </section>
+
+  <!-- ===== ABOUT ===== -->
+  <section class="section" id="about">
+    <div class="container">
+      <h2 class="section-title"><span class="accent">//</span> About Me</h2>
+      <div class="about-grid">
+        <div class="about-text">
+          <p>
+            Hi, I'm <strong>Ramlal</strong>, a passionate cybersecurity student dedicated to understanding
+            and defending the digital world. I study at the <strong>National Forensic Sciences University (NFSU)</strong>
+            and specialize in ethical hacking, network security, and digital forensics.
+          </p>
+          <p>
+            I love participating in <strong>Capture the Flag (CTF)</strong> competitions, hunting vulnerabilities,
+            and building security tools. My goal is to contribute to a safer internet by identifying and
+            responsibly disclosing security weaknesses.
+          </p>
+          <p>
+            When I'm not hacking (ethically), I'm reading research papers, practising on platforms like
+            HackTheBox and TryHackMe, or exploring the latest threat intelligence reports.
+          </p>
+          <a href="#contact" class="btn btn-primary" style="margin-top:1.5rem;">Get In Touch</a>
+        </div>
+        <div class="about-terminal">
+          <div class="terminal-header">
+            <span class="dot red"></span><span class="dot yellow"></span><span class="dot green"></span>
+            <span class="terminal-title">whoami.sh</span>
+          </div>
+          <div class="terminal-body">
+            <p><span class="t-prompt">$</span> <span class="t-cmd">cat profile.txt</span></p>
+            <p class="t-out">Name    : Ramlal</p>
+            <p class="t-out">Role    : Cybersecurity Student</p>
+            <p class="t-out">Uni     : NFSU</p>
+            <p class="t-out">Focus   : Ethical Hacking</p>
+            <p class="t-out">OS      : Kali Linux / Parrot OS</p>
+            <p class="t-out">Status  : <span class="status-green">Available for internships</span></p>
+            <p><span class="t-prompt">$</span> <span class="cursor-blink">_</span></p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== SKILLS ===== -->
+  <section class="section section-dark" id="skills">
+    <div class="container">
+      <h2 class="section-title"><span class="accent">//</span> Skills</h2>
+      <div class="skills-grid">
+
+        <div class="skill-card">
+          <div class="skill-icon">&#128274;</div>
+          <h3>Offensive Security</h3>
+          <ul>
+            <li>Penetration Testing</li>
+            <li>Web Application Hacking</li>
+            <li>Network Exploitation</li>
+            <li>Privilege Escalation</li>
+          </ul>
+        </div>
+
+        <div class="skill-card">
+          <div class="skill-icon">&#128737;</div>
+          <h3>Defensive Security</h3>
+          <ul>
+            <li>Incident Response</li>
+            <li>Log Analysis &amp; SIEM</li>
+            <li>Firewall &amp; IDS/IPS</li>
+            <li>Vulnerability Management</li>
+          </ul>
+        </div>
+
+        <div class="skill-card">
+          <div class="skill-icon">&#128269;</div>
+          <h3>Digital Forensics</h3>
+          <ul>
+            <li>Memory Forensics</li>
+            <li>Disk &amp; File Analysis</li>
+            <li>Network Forensics</li>
+            <li>Malware Analysis</li>
+          </ul>
+        </div>
+
+        <div class="skill-card">
+          <div class="skill-icon">&#128187;</div>
+          <h3>Tools &amp; Tech</h3>
+          <ul>
+            <li>Metasploit, Burp Suite</li>
+            <li>Nmap, Wireshark</li>
+            <li>Python, Bash scripting</li>
+            <li>Git, Docker</li>
+          </ul>
+        </div>
+
+      </div>
+
+      <div class="skill-bars">
+        <h3 class="bars-title">Proficiency</h3>
+        <div class="bar-item">
+          <span class="bar-label">Web App Pentesting</span>
+          <div class="bar-track"><div class="bar-fill" data-width="85"></div></div>
+          <span class="bar-pct">85%</span>
+        </div>
+        <div class="bar-item">
+          <span class="bar-label">Network Security</span>
+          <div class="bar-track"><div class="bar-fill" data-width="80"></div></div>
+          <span class="bar-pct">80%</span>
+        </div>
+        <div class="bar-item">
+          <span class="bar-label">Python / Scripting</span>
+          <div class="bar-track"><div class="bar-fill" data-width="75"></div></div>
+          <span class="bar-pct">75%</span>
+        </div>
+        <div class="bar-item">
+          <span class="bar-label">Digital Forensics</span>
+          <div class="bar-track"><div class="bar-fill" data-width="70"></div></div>
+          <span class="bar-pct">70%</span>
+        </div>
+        <div class="bar-item">
+          <span class="bar-label">CTF / Reverse Engineering</span>
+          <div class="bar-track"><div class="bar-fill" data-width="65"></div></div>
+          <span class="bar-pct">65%</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== PROJECTS ===== -->
+  <section class="section" id="projects">
+    <div class="container">
+      <h2 class="section-title"><span class="accent">//</span> Projects</h2>
+      <div class="projects-grid">
+
+        <div class="project-card">
+          <div class="project-header">
+            <span class="project-tag">Web Security</span>
+            <div class="project-links">
+              <a href="#" aria-label="GitHub repository">&#128279;</a>
+            </div>
+          </div>
+          <h3>Automated SQL Injection Scanner</h3>
+          <p>A Python-based tool that automatically detects SQL injection vulnerabilities in web applications. Supports error-based, blind, and time-based injection techniques.</p>
+          <div class="project-tech">
+            <span>Python</span><span>Requests</span><span>BeautifulSoup</span>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <div class="project-header">
+            <span class="project-tag">Network</span>
+            <div class="project-links">
+              <a href="#" aria-label="GitHub repository">&#128279;</a>
+            </div>
+          </div>
+          <h3>Network Packet Analyzer</h3>
+          <p>A real-time packet sniffer and analyzer built with Scapy. Detects anomalous traffic patterns, ARP spoofing, and performs protocol dissection.</p>
+          <div class="project-tech">
+            <span>Python</span><span>Scapy</span><span>Wireshark</span>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <div class="project-header">
+            <span class="project-tag">CTF</span>
+            <div class="project-links">
+              <a href="#" aria-label="GitHub repository">&#128279;</a>
+            </div>
+          </div>
+          <h3>CTF Writeups Collection</h3>
+          <p>Detailed writeups for solved Capture The Flag challenges covering web exploitation, cryptography, reverse engineering, and forensics.</p>
+          <div class="project-tech">
+            <span>Web</span><span>Crypto</span><span>Forensics</span>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <div class="project-header">
+            <span class="project-tag">Malware Analysis</span>
+            <div class="project-links">
+              <a href="#" aria-label="GitHub repository">&#128279;</a>
+            </div>
+          </div>
+          <h3>Malware Sandbox Report Tool</h3>
+          <p>Automated static and dynamic analysis pipeline for malware samples. Extracts IOCs, network signatures, and generates structured reports.</p>
+          <div class="project-tech">
+            <span>Python</span><span>YARA</span><span>Cuckoo</span>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <div class="project-header">
+            <span class="project-tag">Forensics</span>
+            <div class="project-links">
+              <a href="#" aria-label="GitHub repository">&#128279;</a>
+            </div>
+          </div>
+          <h3>Digital Evidence Acquisition Script</h3>
+          <p>Bash automation script for acquiring and preserving digital evidence from live Linux systems following forensic best practices.</p>
+          <div class="project-tech">
+            <span>Bash</span><span>dd</span><span>Volatility</span>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <div class="project-header">
+            <span class="project-tag">Recon</span>
+            <div class="project-links">
+              <a href="#" aria-label="GitHub repository">&#128279;</a>
+            </div>
+          </div>
+          <h3>OSINT Recon Framework</h3>
+          <p>Modular OSINT framework that aggregates data from multiple public sources to build comprehensive target profiles for red team engagements.</p>
+          <div class="project-tech">
+            <span>Python</span><span>Shodan API</span><span>OSINT</span>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== CERTIFICATIONS ===== -->
+  <section class="section section-dark" id="certifications">
+    <div class="container">
+      <h2 class="section-title"><span class="accent">//</span> Certifications</h2>
+      <div class="certs-grid">
+
+        <div class="cert-card">
+          <div class="cert-badge">CEH</div>
+          <div class="cert-info">
+            <h3>Certified Ethical Hacker</h3>
+            <p>EC-Council</p>
+            <span class="cert-year">2024</span>
+          </div>
+        </div>
+
+        <div class="cert-card">
+          <div class="cert-badge">eJPT</div>
+          <div class="cert-info">
+            <h3>eLearnSecurity Jr Penetration Tester</h3>
+            <p>eLearnSecurity</p>
+            <span class="cert-year">2024</span>
+          </div>
+        </div>
+
+        <div class="cert-card">
+          <div class="cert-badge">CC</div>
+          <div class="cert-info">
+            <h3>Certified in Cybersecurity</h3>
+            <p>(ISC)²</p>
+            <span class="cert-year">2023</span>
+          </div>
+        </div>
+
+        <div class="cert-card">
+          <div class="cert-badge">THM</div>
+          <div class="cert-info">
+            <h3>TryHackMe Top 1%</h3>
+            <p>TryHackMe</p>
+            <span class="cert-year">2024</span>
+          </div>
+        </div>
+
+        <div class="cert-card">
+          <div class="cert-badge">HTB</div>
+          <div class="cert-info">
+            <h3>HackTheBox Pro Hacker</h3>
+            <p>HackTheBox</p>
+            <span class="cert-year">2024</span>
+          </div>
+        </div>
+
+        <div class="cert-card">
+          <div class="cert-badge">NSE</div>
+          <div class="cert-info">
+            <h3>NSE 1, 2, 3 – Network Security Associate</h3>
+            <p>Fortinet</p>
+            <span class="cert-year">2023</span>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== CONTACT ===== -->
+  <section class="section" id="contact">
+    <div class="container">
+      <h2 class="section-title"><span class="accent">//</span> Contact</h2>
+      <div class="contact-grid">
+        <div class="contact-info">
+          <p>I'm open to internship opportunities, collaborations, and security research projects.
+             Feel free to reach out!</p>
+          <div class="contact-links">
+            <a href="mailto:ramlal@example.com" class="contact-item">
+              <span class="contact-icon">&#9993;</span>
+              <span>ramlal@example.com</span>
+            </a>
+            <a href="https://github.com/NFSU3" target="_blank" rel="noopener noreferrer" class="contact-item">
+              <span class="contact-icon">&#128025;</span>
+              <span>github.com/NFSU3</span>
+            </a>
+            <a href="https://linkedin.com/in/ramlal" target="_blank" rel="noopener noreferrer" class="contact-item">
+              <span class="contact-icon">&#128101;</span>
+              <span>linkedin.com/in/ramlal</span>
+            </a>
+            <a href="https://tryhackme.com/p/ramlal" target="_blank" rel="noopener noreferrer" class="contact-item">
+              <span class="contact-icon">&#128272;</span>
+              <span>tryhackme.com/p/ramlal</span>
+            </a>
+          </div>
+        </div>
+        <form class="contact-form" id="contactForm" novalidate>
+          <div class="form-group">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" placeholder="Your name" required autocomplete="name" />
+          </div>
+          <div class="form-group">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" placeholder="your@email.com" required autocomplete="email" />
+          </div>
+          <div class="form-group">
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="5" placeholder="Your message..." required></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary btn-full">Send Message</button>
+          <p class="form-note" id="formNote" aria-live="polite"></p>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="footer">
+    <div class="container">
+      <p>
+        <span class="prompt">~</span> Ramlal &copy; <span id="year"></span> &nbsp;|&nbsp;
+        Built with <span class="heart">&#10084;</span> &amp; caffeine &nbsp;|&nbsp;
+        <span class="status-green">&#9679; All systems operational</span>
+      </p>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
